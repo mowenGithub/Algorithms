@@ -23,9 +23,10 @@ public class Main {
     private static int weightedChoice(int ... weights) {
         int winner = -1;
         double sum = 0;
+        Random random = new Random();
         for(int i = 0; i < weights.length; i++) {
             sum += weights[i];
-            if(sum * new Random().nextDouble() < weights[i]) {
+            if(sum * random.nextDouble() < weights[i]) {
                 winner = i;
             }
         }
