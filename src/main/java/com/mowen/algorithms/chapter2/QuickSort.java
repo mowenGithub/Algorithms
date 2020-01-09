@@ -1,6 +1,6 @@
 package com.mowen.algorithms.chapter2;
 
-import edu.princeton.cs.algs4.StdRandom;
+import com.mowen.algorithms.util.StdRandom;
 
 /**
  * Created by mowen on 4/14/16.

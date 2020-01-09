@@ -31,7 +31,7 @@ public class HashST<Key, Value> {
         this.M = M;
         st =  (SequentialSearchST<Key, Value>[]) new SequentialSearchST[M];
         for (int i = 0;i < M; i++) {
-            st[i] = new SequentialSearchST<>();
+            st[i] = new SequentialSearchST<Key, Value>();
         }
     }
     private int hash(Key key) {

@@ -1,7 +1,7 @@
 package com.mowen.algorithms.chapter1;
 
-import edu.princeton.cs.algs4.StdIn;
-import edu.princeton.cs.algs4.StdOut;
+import com.mowen.algorithms.util.StdIn;
+import com.mowen.algorithms.util.StdOut;
 
 /**
  * Created by mowen on 4/13/16.

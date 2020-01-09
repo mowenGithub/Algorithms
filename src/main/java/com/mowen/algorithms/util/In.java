@@ -10,9 +10,6 @@ package com.mowen.algorithms.util;
  *
  ******************************************************************************/
 
-import edu.princeton.cs.algs4.BinaryIn;
-import edu.princeton.cs.algs4.StdIn;
-
 import java.io.*;
 import java.net.Socket;
 import java.net.URL;

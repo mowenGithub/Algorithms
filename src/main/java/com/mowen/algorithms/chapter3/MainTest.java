@@ -20,7 +20,7 @@ public class MainTest {
 //        System.out.println(binarySearchST.get("C"));
 //        binarySearchST.print();
 
-        BST<String, String> bst = new BST<>();
+        BST<String, String> bst = new BST<String, String>();
         bst.put("A", "AA");
         bst.put("C", "CA");
         bst.put("B", "BA");
